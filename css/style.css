@@ -1,0 +1,4 @@
+body::selection{
+    border-radius: 10px;
+    opacity: .7;
+}

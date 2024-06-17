@@ -2,3 +2,42 @@ body::selection{
     border-radius: 10px;
     opacity: .7;
 }
+
+.c{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    font-family: cursive;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: larger;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+button:active{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+input{
+    background-color: rgba(128, 128, 128, 0.452);
+    outline: none;
+    border-width: 0;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    border-style: solid;
+    padding-left: 5px;
+    height: 5%;
+    font-size: larger;
+}
+input:active{
+    background-color: white;
+}
